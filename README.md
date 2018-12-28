@@ -1,24 +1,4 @@
-# DS Lab - Final Assignment: Robust Journey Planning
-
-The final assignment is to be done in **groups of 3 or, preferably, 4**.
-
-If needed, please start by *creating a new group* or *update a existing group* for the final project (to be used in Doodle below).
-
-## PROJECT NOTEBOOK NAME: `final_notebook.ipynb`
-
-## Important dates
-
-The assignment (clear, well-annotated notebook; report-like) is due on **June 15th, 23:59**.
-
-The oral defense will take place either before the end of the semester or after the end of the semester (before or during exam period).
-
-You are invited to indicate your group's availability **using your final assignment's group name** in [Doodle](https://doodle.com/poll/t2s5ndf8iugtgvi5). Please **do so ASAP** to be assured a good spot. Single vote! First come, first served!
-
-Finally, we will hold office hours in **INN 211** on the following days:
-
-- Thursday May 17th 16:00 - 17:00
-- Tuesday May 22nd 15:00 - 16:00
-- Thursday May 31st 16:00 - 17:00
+# DS Lab -  Robust Journey Planning
 
 ## Problem Motivation
 
@@ -98,39 +78,6 @@ Each line of the file represents a stop and contains arrival and departure times
 In some cases, the actual times were not measured so the `AN_PROGNOSE_STATUS`/`AB_PROGNOSE_STATUS` will be empty or set to `PROGNOSE` and `AN_PROGNOSE`/`AB_PROGNOSE` will be empty.
 
 We will use the SBB data limited around the Zurich area. We will focus on all the stops within 10km of the Zurich train station.
-
-## Grading Method
-
-We will grade both your Jupyter-based report (60%) and your 15-minute oral presentation (40%).
-
-We will use the following criteria:
-
-1. The clarity and conciseness of the written and oral reports (written: 15 pts, oral: 10 pts)
-2. The formulation of the problem and its decomposition into smaller tasks (written: 5 pts, oral: 5 pts)
-3. The originality of the solution (system design, analytics, visualization) (written: 10 pts, oral: 5 pts)
-4. The quality of the solution (system design, analytics and associated implementation) (written: 20 pts, oral: 10 pts)
-5. The explanation of the pro's and con's / shortcomings of the proposed solution  (written: 10 pts, oral: 10 pts)
-
-The solution and associated implementation & explanations will be weighted across the different parts as follows:
-
-- Design and method used to model the public transport network: 10%
-- Design and method used to create the predictive models: 30%
-- Route planning algorithm: 30%
-- Validation method: 10%
-- Visualization: 20%
-
-## Hints
-
-Before you get started, we offer a few hints:
-
-- Reserve some time to Google-up the state of the art before implementing. There is a substantial amount of work on this topic. Look for *time-dependent*, or *time-varying networks*, *stochastic route planning under uncertainty* and *isochrone maps*. You should also look in the references provided below.
-- You should already be acquainted with the data.
-However, as you learn more about the state of the art, spend time to better understand your data.
-Anticipate what can and cannot be done from what is available to you, and plan your design strategy accordingly. Do not hesitate to complete the proposed data sources with your own if necessary.
-- Start small with a simple working solution and improve on it.
-In a first version, assume that all trains and buses are always sharp on time.
-Focus on creating a sane programming environment that you can use to develop and test your work as it evolves.
-Next, work-out the risk-aware solution gradually - start with a simple predictive model and improve it. In addition you can test your algorithm on selected pairs of stops before generalizing to the full public transport network under consideration.
 
 ## References
 
